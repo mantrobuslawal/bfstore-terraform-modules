@@ -1,5 +1,7 @@
 # bfstore Terraform Modules
 
+![bfstore - Borough Furniture Store logo](bfstore_terraform_modules.png)
+
 Reusable Terraform modules for bfstore platform infrastructure, covering networking, Kubernetes, databases, IAM, observability, and cloud-native foundations.
 
 ## Repository status
