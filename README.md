@@ -1,40 +1,40 @@
-    # bfstore Terraform Modules
+# bfstore Terraform Modules
 
-    Reusable Terraform modules for bfstore platform infrastructure, covering networking, Kubernetes, databases, IAM, observability, and cloud-native foundations.
+Reusable Terraform modules for bfstore platform infrastructure, covering networking, Kubernetes, databases, IAM, observability, and cloud-native foundations.
 
-    ## Repository status
+## Repository status
 
-    This repository is an early bfstore portfolio repository. It is currently being set up with initial structure, documentation, and direction before implementation work begins.
+This repository is an early bfstore portfolio repository. It is currently being set up with initial structure, documentation, and direction before implementation work begins.
 
-    ## Purpose
+## Purpose
 
-    This repository will hold reusable Terraform modules used to build bfstore platform infrastructure consistently across environments and clouds.
+This repository will hold reusable Terraform modules used to build bfstore platform infrastructure consistently across environments and clouds.
 
-    bfstore is a cloud-native ecommerce platform for developer-themed homeware. This repository is part of the wider bfstore portfolio and is intended to demonstrate senior platform engineering, DevSecOps, Kubernetes, cloud infrastructure, and developer experience capability.
+bfstore is a cloud-native ecommerce platform for developer-themed homeware. This repository is part of the wider bfstore portfolio and is intended to demonstrate senior platform engineering, DevSecOps, Kubernetes, cloud infrastructure, and developer experience capability.
 
-    ## Scope
+## Scope
 
-    This repository will cover:
+This repository will cover:
 
-    - Reusable Terraform module design
+- Reusable Terraform module design
 - Input/output contracts for infrastructure components
 - Module examples and usage documentation
 - Cloud infrastructure building blocks
 - Testing and validation patterns for modules
 - Versioning and release notes for module consumers
 
-    ## Out of scope
+  ## Out of scope
 
-    This repository will not own:
+  This repository will not own:
 
-    - Environment-specific infrastructure state
+- Environment-specific infrastructure state
 - Application service source code
 - Kubernetes GitOps deployment manifests
 - One-off infrastructure experiments not intended for reuse
 
     ## Suggested repository structure
 
-    - `modules/              # Reusable Terraform modules`
+- `modules/              # Reusable Terraform modules`
 - `examples/             # Runnable module examples`
 - `docs/                 # Module design notes and ADRs`
 - `tests/                # Module tests and validation helpers`
