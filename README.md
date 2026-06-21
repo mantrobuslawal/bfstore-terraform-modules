@@ -1,4 +1,4 @@
-# bfstore Terraform Modules
+# bfstore iac Modules
 
 ![bfstore - Borough Furniture Store logo](bfstore_terraform_modules.png)
 
